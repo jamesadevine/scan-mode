@@ -1,0 +1,30 @@
+{
+    "name": "scan-mode",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "jacdac": "github:microsoft/pxt-jacdac#v0.7.15",
+        "jacdac-led": "github:microsoft/pxt-jacdac/led#v0.7.15",
+        "jacdac-button": "github:microsoft/pxt-jacdac/button#v0.7.15",
+        "jacdac-led-pixel": "github:microsoft/pxt-jacdac/led-pixel#v0.7.15",
+        "jacdac-hid-mouse": "github:microsoft/pxt-jacdac/hid-mouse#v0.7.15"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.11",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
